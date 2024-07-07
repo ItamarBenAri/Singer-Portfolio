@@ -7,7 +7,7 @@ import logo from "../../../Assets/Icons/music-cd.svg";
 function Header(): JSX.Element {
 
     const pages = [ // App pages
-        { name: "דף הבית", link: "/Singer-Portfolio/home", },
+        { name: "דף הבית", link: "/Singer-Portfolio", },
         { name: "הסיפור שלי", link: "/Singer-Portfolio/my-story"  },
         { name: "הופעות קרובות", link: "/Singer-Portfolio/shows" },
         { name: "סרטונים מהרשת", link: "/Singer-Portfolio/social-media-videos" },

@@ -52,7 +52,7 @@ export function ContactUsForm(): JSX.Element {
                 () => {
                     toast.success("ההודעה נשלחה בהצלחה!");
                     methods.reset();
-                    navigate("/Singer-Portfolio/home");
+                    navigate("/Singer-Portfolio");
                     setMessageSending(false);
                 },
                 (error: any) => {
