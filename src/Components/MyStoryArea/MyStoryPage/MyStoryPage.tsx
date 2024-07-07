@@ -42,7 +42,7 @@ export function MyStoryPage(): JSX.Element {
                     <p className="story-text">
                         אחרי שירות צבאי, התחלתי להופיע ולהוציא שירים מקוריים, ופה התחילה הקריירה המקצועית שלי. התחלתי לעבוד עם מפיקים מוזיקליים ומוזיקאים מקצועיים, ולהקליט באולפנים מתקדמים. השירים שלי התחילו להתפרסם ולהיות מושמעים ברדיו, והקהל שלי הלך וגדל.
                     </p>
-                    <img src={myStorySrc} alt="My Story Image 4" className="story-image" />
+                    <img src={myStorySrc} alt="My Story 4" className="story-image" />
                 </div>
                 <h2 className="subtitle" data-aos="fade-right">שיאים והצלחות</h2>
                 <div className="story-section" data-aos="fade-right">
