@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Singer-Portfolio/static/css/main.61965323.css",
-    "main.js": "/Singer-Portfolio/static/js/main.1c9a3b2d.js",
+    "main.js": "/Singer-Portfolio/static/js/main.defa4a79.js",
     "static/js/27.a825cf5b.chunk.js": "/Singer-Portfolio/static/js/27.a825cf5b.chunk.js",
     "static/media/video2.mp4": "/Singer-Portfolio/static/media/video2.468dff8d9a3fc70ae9a4.mp4",
     "static/media/video3.mp4": "/Singer-Portfolio/static/media/video3.992cbb93f1843f6ff802.mp4",
@@ -14,6 +14,6 @@
   },
   "entrypoints": [
     "static/css/main.61965323.css",
-    "static/js/main.1c9a3b2d.js"
+    "static/js/main.defa4a79.js"
   ]
 }
