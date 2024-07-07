@@ -7,11 +7,11 @@ import logo from "../../../Assets/Icons/music-cd.svg";
 function Header(): JSX.Element {
 
     const pages = [ // App pages
-        { name: "דף הבית", link: "/home", },
-        { name: "הסיפור שלי", link: "/my-story"  },
-        { name: "הופעות קרובות", link: "/shows" },
-        { name: "סרטונים מהרשת", link: "/social-media-videos" },
-        { name: "צור קשר", link: "/contact-me"}
+        { name: "דף הבית", link: "/Singer-Portfolio/home", },
+        { name: "הסיפור שלי", link: "/Singer-Portfolio/my-story"  },
+        { name: "הופעות קרובות", link: "/Singer-Portfolio/shows" },
+        { name: "סרטונים מהרשת", link: "/Singer-Portfolio/social-media-videos" },
+        { name: "צור קשר", link: "/Singer-Portfolio/contact-me"}
     ];
 
     const [isOpen, setIsOpen] = useState(false);
