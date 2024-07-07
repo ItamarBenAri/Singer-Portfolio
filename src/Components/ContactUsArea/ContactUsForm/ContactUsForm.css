@@ -1,0 +1,20 @@
+.ContactUsForm {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    padding: 20px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.ContactUsForm .recaptchaContent {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+    padding-top: 16px;
+}
+
+.ContactUsForm .recaptcha {
+    display: flex;
+    justify-content: center;
+}

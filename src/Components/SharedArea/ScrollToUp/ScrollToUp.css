@@ -1,0 +1,30 @@
+.ScrollToUp {
+    position: fixed;
+    bottom: 190px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.2s;
+}
+
+.ScrollToUp.hidden {
+    display: none;
+}
+
+.ScrollToUp.visible {
+    display: block;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

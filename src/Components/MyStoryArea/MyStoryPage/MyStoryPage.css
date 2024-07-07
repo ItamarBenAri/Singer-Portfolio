@@ -1,0 +1,166 @@
+.MyStoryPage {
+    direction: rtl;
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.MyStoryPage .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'David Libre', serif;
+    color: #2c3e50;
+    position: relative;
+}
+
+.MyStoryPage .title::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background: #2c3e50;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.MyStoryPage .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.MyStoryPage .story-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+.MyStoryPage .story-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.MyStoryPage .story-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.MyStoryPage .story-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.MyStoryPage .subtitle {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'David Libre', serif;
+    color: #34495e;
+    position: relative;
+}
+
+.MyStoryPage .subtitle::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background: #34495e;
+    display: block;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.MyStoryPage .story-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+    color: #2c3e50;
+    text-align: justify;
+    margin: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .MyStoryPage .story-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .MyStoryPage .story-section:nth-child(even) .story-image {
+        order: 2;
+    }
+
+    .MyStoryPage .story-image {
+        width: 45%;
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .MyStoryPage .title {
+        font-size: 2rem;
+    }
+
+    .MyStoryPage .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .MyStoryPage .story-text {
+        font-size: 1rem;
+    }
+
+    .MyStoryPage .story-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .MyStoryPage .story-image {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

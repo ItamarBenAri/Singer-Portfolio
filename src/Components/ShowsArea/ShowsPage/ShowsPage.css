@@ -1,0 +1,141 @@
+.ShowsPage {
+    direction: rtl;
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.ShowsPage .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'David Libre', serif;
+    color: #2c3e50;
+    position: relative;
+}
+
+.ShowsPage .title::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background: #2c3e50;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.ShowsPage .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.ShowsPage .show-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.ShowsPage .show-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ShowsPage .show-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ShowsPage .show-card:hover .show-image {
+    transform: scale(1.05);
+}
+
+.ShowsPage .show-details {
+    padding: 15px;
+    text-align: right;
+    background: #ffffff;
+    width: 100%;
+}
+
+.ShowsPage .show-date {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.ShowsPage .show-location {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.ShowsPage .show-description {
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+.ShowsPage .no-shows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ShowsPage .no-shows-icon {
+    font-size: 4rem;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.ShowsPage .no-shows-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.ShowsPage .no-shows-subtext {
+    font-size: 1rem;
+    color: #34495e;
+}
+
+@media (max-width: 768px) {
+    .ShowsPage .title {
+        font-size: 2rem;
+    }
+
+    .ShowsPage .show-image {
+        height: 150px;
+    }
+
+    .ShowsPage .show-date {
+        font-size: 1.2rem;
+    }
+
+    .ShowsPage .show-location {
+        font-size: 1rem;
+    }
+
+    .ShowsPage .show-description {
+        font-size: 0.9rem;
+    }
+
+    .ShowsPage .no-shows-icon {
+        font-size: 3rem;
+    }
+}

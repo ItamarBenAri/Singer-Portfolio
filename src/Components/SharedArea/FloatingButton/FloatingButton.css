@@ -1,0 +1,18 @@
+.FloatingButton .sss {
+    position: fixed; /* מיקום קבוע ביחס לחלון הדפדפן */
+    bottom: 84px; /* מיקום מלמטה */
+    left: 50px; /* מיקום משמאל */
+    width: 56px; /* רוחב הכפתור */
+    height: 56px; /* גובה הכפתור */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FloatingButton .iconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
