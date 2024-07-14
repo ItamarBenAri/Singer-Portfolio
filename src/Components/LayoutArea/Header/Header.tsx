@@ -52,7 +52,7 @@ function Header(): JSX.Element {
                 </div>
                 <div className={`menu ${isOpen ? 'open' : ''}`}>
                     {pages.map(p => (
-                        <NavLink key={p.name} to={p.link} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"} onClick={() => setIsOpen(false)}>{p.name}</NavLink>
+                        <NavLink key={p.name} end to={p.link} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"} onClick={() => setIsOpen(false)}>{p.name}</NavLink>
                     ))}
                 </div>
             </nav>

@@ -46,16 +46,17 @@ export function SocialVideosPage(): JSX.Element {
     };
 
     return (
-        <div className="SocialVideosPage">
+        <div className="SocialVideosPage" data-aos="fade-up">
             <h1 className="title" data-aos="fade-in">סרטונים מהרשת</h1>
             {videos.map((video, index) => (
-                <div className="video-container" key={index} data-aos="fade-up">
+                <div className="video-container" key={index}>
                     <DeviceFrameset device="iPhone X" color="black" zoom={0.6}>
                         <video
                             ref={el => (videoRefs.current[index] = el)}
                             className="video-content"
                             controls={false}
                             onClick={() => handlePlayPause(index)}
+                            playsInline
                         >
                             <source src={video.src} type="video/mp4" />
                             Your browser does not support the video tag.

@@ -40,13 +40,13 @@
 
 .SocialVideosPage .video-views {
     position: absolute;
-    bottom: 15px;
-    right: 15px;
+    bottom: 20px;
+    right: 20px;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 5px 10px;
     border-radius: 15px;
-    font-size: 14px;
+    font-size: 34px;
 }
 
 .SocialVideosPage .play-pause-bubble {

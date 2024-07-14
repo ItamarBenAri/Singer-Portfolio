@@ -19,7 +19,7 @@ export function FloatingButton(): JSX.Element {
                 text={isOpen ? "סגור" : "צור קשר"}
                 event="click"
             >
-                <a href="https://wa.me/50-272-7183?text=שלום!+הגעתי+מהאתר,+אשמח+לפרטים" rel="noreferrer" target="_blank" onClick={sendMessageText}>
+                <a href="https://wa.me/502727183?text=שלום!+הגעתי+מהאתר,+אשמח+לפרטים" rel="noreferrer" target="_blank" onClick={sendMessageText}>
                     <Action
                         about="שלח הודעת טקסט בוואצפ"
                         text="ווצאפ"
