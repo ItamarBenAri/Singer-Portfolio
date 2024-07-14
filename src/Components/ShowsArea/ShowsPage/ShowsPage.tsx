@@ -13,15 +13,15 @@ interface Show {
     image: string;
 }
 
+const shows: Show[] = [
+    { date: "2024-07-15", location: "תל אביב, ישראל", description: "הופעה חיה בזירת תל אביב", image: myStorySrc },
+    { date: "2024-08-05", location: "ירושלים, ישראל", description: "הופעה חיצונית בגן סאקר", image: myStorySrc },
+    { date: "2024-09-10", location: "חיפה, ישראל", description: "אירוע צדקה באודיטוריום חיפה", image: myStorySrc }
+];
+
 export function ShowsPage(): JSX.Element {
     
     useTitle("אביתר ידעי 🎶 | הופעות קרובות");
-    
-    const shows: Show[] = [
-        { date: "2024-07-15", location: "תל אביב, ישראל", description: "הופעה חיה בזירת תל אביב", image: myStorySrc },
-        { date: "2024-08-05", location: "ירושלים, ישראל", description: "הופעה חיצונית בגן סאקר", image: myStorySrc },
-        { date: "2024-09-10", location: "חיפה, ישראל", description: "אירוע צדקה באודיטוריום חיפה", image: myStorySrc }
-    ];
 
     const [upcomingShows, setUpcomingShows] = useState<Show[]>([]);
 
