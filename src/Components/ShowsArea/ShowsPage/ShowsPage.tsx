@@ -17,7 +17,7 @@ export function ShowsPage(): JSX.Element {
         { date: "2024-09-10", location: "חיפה, ישראל", description: "אירוע צדקה באודיטוריום חיפה", image: myStorySrc }
     ];
 
-    const [upcomingShows, setUpcomingShows] = useState<ShowModel[]>([]);
+    const [upcomingShows, setUpcomingShows] = useState<ShowModel[]>(shows);
 
     useEffect(() => {
         AOS.init({ duration: 1000, once: true });
