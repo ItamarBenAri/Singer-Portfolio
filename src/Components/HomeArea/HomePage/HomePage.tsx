@@ -21,7 +21,7 @@ export function HomePage(): JSX.Element {
             <div className="imageContainer" >
                 <img src={profileImageSrc} alt="Singer profile" />
             </div>
-            <div className="describing">אומן / זמר / יוצר / מלחין / זמר / יוצר / מלחין / זמר / יוצר / מלחין</div>
+            <div className="describing">אומן / זמר / יוצר / מלחין / כותב</div>
             <div className="myName">אביתר ידעי</div>
             <NavLink to="/Singer-Portfolio/contact-me" className="menu-link"><ContactMail sx={AppComponentsStyle.btnIcon} /> צור קשר</NavLink>
         </div>
