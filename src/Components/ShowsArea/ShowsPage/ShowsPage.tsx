@@ -5,19 +5,25 @@ import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import useTitle from "../../../Utils/UseTitle";
-import ShowModel from "../../../Models/ShowModel";
+
+interface Show {
+    date: string;
+    location: string;
+    description: string;
+    image: string;
+}
 
 export function ShowsPage(): JSX.Element {
     
     useTitle("אביתר ידעי 🎶 | הופעות קרובות");
     
-    const shows: ShowModel[] = [
+    const shows: Show[] = [
         { date: "2024-07-15", location: "תל אביב, ישראל", description: "הופעה חיה בזירת תל אביב", image: myStorySrc },
         { date: "2024-08-05", location: "ירושלים, ישראל", description: "הופעה חיצונית בגן סאקר", image: myStorySrc },
         { date: "2024-09-10", location: "חיפה, ישראל", description: "אירוע צדקה באודיטוריום חיפה", image: myStorySrc }
     ];
 
-    const [upcomingShows, setUpcomingShows] = useState<ShowModel[]>(shows);
+    const [upcomingShows, setUpcomingShows] = useState<Show[]>([]);
 
     useEffect(() => {
         AOS.init({ duration: 1000, once: true });
