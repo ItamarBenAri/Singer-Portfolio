@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Singer-Portfolio/static/css/main.808de5e6.css",
+    "main.css": "/Singer-Portfolio/static/css/main.20da8e89.css",
     "main.js": "/Singer-Portfolio/static/js/main.1c3e5101.js",
     "static/js/27.a825cf5b.chunk.js": "/Singer-Portfolio/static/js/27.a825cf5b.chunk.js",
     "static/media/video2.mp4": "/Singer-Portfolio/static/media/video2.468dff8d9a3fc70ae9a4.mp4",
@@ -13,7 +13,7 @@
     "static/media/music-cd.svg": "/Singer-Portfolio/static/media/music-cd.5ab3d88a008f28fe5c7ed3a9072e0609.svg"
   },
   "entrypoints": [
-    "static/css/main.808de5e6.css",
+    "static/css/main.20da8e89.css",
     "static/js/main.1c3e5101.js"
   ]
 }
