@@ -88,9 +88,6 @@
 @media (max-width: 768px) {
     .SocialVideosPage {
         flex-direction: column;
-    }
-
-    .SocialVideosPage .video-container {
         margin-right: -20px;
     }
 }
