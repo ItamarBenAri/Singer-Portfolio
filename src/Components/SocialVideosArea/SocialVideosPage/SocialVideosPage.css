@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .SocialVideosPage .title {
@@ -90,6 +91,6 @@
     }
 
     .SocialVideosPage .video-container {
-        width: 100%;
+        margin-right: -20px;
     }
 }
