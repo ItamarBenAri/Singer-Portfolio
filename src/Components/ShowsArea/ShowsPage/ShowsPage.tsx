@@ -1,6 +1,8 @@
 import "./ShowsPage.css";
 import { useEffect, useState } from "react";
-import myStorySrc from "../../../Assets/Images/my-story.jpeg";
+import telAvivShowSrc from "../../../Assets/Images/tel-aviv-show.jpg";
+import ganSakerShowSrc from "../../../Assets/Images/gan-saker-show.jpg";
+import haifaShowSrc from "../../../Assets/Images/haifa-show.jpg";
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -14,9 +16,9 @@ interface Show {
 }
 
 const shows: Show[] = [
-    { date: "2024-07-15", location: "תל אביב, ישראל", description: "הופעה חיה בזירת תל אביב", image: myStorySrc },
-    { date: "2024-08-05", location: "ירושלים, ישראל", description: "הופעה חיצונית בגן סאקר", image: myStorySrc },
-    { date: "2024-09-10", location: "חיפה, ישראל", description: "אירוע צדקה באודיטוריום חיפה", image: myStorySrc }
+    { date: "2024-07-15", location: "תל אביב, ישראל", description: "הופעה חיה בזירת תל אביב", image: telAvivShowSrc },
+    { date: "2024-08-05", location: "ירושלים, ישראל", description: "הופעה חיצונית בגן סאקר", image: ganSakerShowSrc },
+    { date: "2024-09-10", location: "חיפה, ישראל", description: "אירוע צדקה באודיטוריום חיפה", image: haifaShowSrc }
 ];
 
 export function ShowsPage(): JSX.Element {

@@ -11,7 +11,7 @@ export function SocialMediaLinks(): JSX.Element {
             <div className="divider">
                 <Divider variant="middle" />
             </div>
-            <Link href="https://www.youtube.com/results?search_query=%D7%99%D7%A8%D7%95%D7%9F+%D7%93%D7%9E%D7%90%D7%A8%D7%99"
+            <Link href="http://www.youtube.com/@user-in1pv7lh1v"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="inherit"
@@ -19,7 +19,7 @@ export function SocialMediaLinks(): JSX.Element {
             >
                 <YouTube />
             </Link>
-            <Link href="https://www.facebook.com/profile.php?id=100044136550811"
+            <Link href="https://www.facebook.com/evyatar.yadaie"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="inherit"
@@ -28,7 +28,7 @@ export function SocialMediaLinks(): JSX.Element {
                 <Facebook />
             </Link>
             <Link
-                href="#"
+                href="https://www.instagram.com/evyatar_yadaie_"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="inherit"
@@ -37,7 +37,7 @@ export function SocialMediaLinks(): JSX.Element {
                 <Instagram />
             </Link>
             <Link
-                href="https://www.tiktok.com/explore?lang=en"
+                href="https://www.tiktok.com/@evyatar_yadaie"
                 target="_blank"
                 rel="noopener noreferrer"
                 color="inherit"

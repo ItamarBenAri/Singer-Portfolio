@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { DeviceFrameset } from 'react-device-frameset';
@@ -15,9 +15,9 @@ export function SocialVideosPage(): JSX.Element {
     useTitle("אביתר ידעי 🎶 | סרטונים מהרשת");
 
     const videos = [
-        { src: video1Src, views: "18K" },
-        { src: video2Src, views: "18K" },
-        { src: video3Src, views: "18K" }
+        { src: video1Src, views: "376.5K" },
+        { src: video2Src, views: "0.7K" },
+        { src: video3Src, views: "49.3K" }
     ];
 
     const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);

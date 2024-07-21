@@ -1,5 +1,5 @@
 import "./HomePage.css";
-import profileImageSrc from "../../../Assets/Images/profile.jpeg"
+import profileImageSrc from "../../../Assets/Images/profile.jpg"
 import { NavLink } from "react-router-dom";
 import { ContactMail } from "@mui/icons-material";
 import AppComponentsStyle from "../../../Theme/AppComponentsStyle";

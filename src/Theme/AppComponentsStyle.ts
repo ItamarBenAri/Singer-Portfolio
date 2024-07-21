@@ -7,8 +7,6 @@ class AppComponentsStyle {
     // ----------------------------------------------------------
 
     // Contact Us Form Style:
-    public static contactUsHeaderIcon = { paddingBottom: "7px" };
-
     public static contactUsTextField = {
         display: "block",
         marginBottom: "10px",
@@ -19,15 +17,6 @@ class AppComponentsStyle {
         display: "flex",
         justifyContent: "right"
     };
-
-    public static header = {
-        display: "flex",
-        alignItems: "flex-end",
-        justifyContent: "center",
-        marginBottom: "20px"
-    };
-
-    public static headerText = { marginLeft: "13px" };
 
     public static circularProgress = {
         display: 'flex',

@@ -1,11 +1,10 @@
-import { Box, Button, CircularProgress, Typography } from "@mui/material";
+import { Box, Button, CircularProgress } from "@mui/material";
 import "./ContactUsForm.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
 import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import MessageModel from "../../../Models/MessageModel";
 import AppComponentsStyle from "../../../Theme/AppComponentsStyle";
-import { ContactMail } from "@mui/icons-material";
 import { appConfig } from "../../../Utils/AppConfig";
 import { useNavigate } from "react-router-dom";
 import { ContactUsTextField } from "../ContactUsTextField/ContactUsTextField";
@@ -67,12 +66,6 @@ export function ContactUsForm(): JSX.Element {
             <CacheProvider value={cacheRtl}>
                 <ThemeProvider theme={theme}>
                     <FormProvider {...methods}>
-                        <Box sx={AppComponentsStyle.header}>
-                            <ContactMail fontSize="large" sx={AppComponentsStyle.contactUsHeaderIcon} />
-                            <Typography variant="h3" component="span" sx={AppComponentsStyle.headerText}>
-                                צור קשר
-                            </Typography>
-                        </Box>
                         <Box
                             component="form"
                             noValidate
