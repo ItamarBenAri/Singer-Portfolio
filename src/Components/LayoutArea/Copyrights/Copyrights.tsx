@@ -8,7 +8,9 @@ function Copyrights(): JSX.Element {
         <div className="Copyrights">
             <Box sx={AppComponentsStyle.copyrightsBox}>
                 <Typography variant="body2" color="text.secondary" align="center">
-                    {"© "} {new Date().getFullYear()} {"איתמר בן ארי, ישראל. כל הזכויות שמורות."}
+                    <a href="https://www.linkedin.com/in/itamar-ben-ari-69678b28b/" target="_blank" rel="noopener noreferrer">
+                        {"© "} {new Date().getFullYear()} {"איתמר בן ארי, ישראל. כל הזכויות שמורות."}
+                    </a>
                 </Typography>
             </Box>
         </div>
