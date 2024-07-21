@@ -5,7 +5,6 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Features](#features)
-- [Usage](#usage)
 - [Credits](#credits)
 - [Author](#author)
 
@@ -41,13 +40,8 @@ Make sure you have the following installed:
    This will create a `build` directory with the production build of your application.
 
 ## Features <a name="features"></a>
-- **Dark Mode**: Toggle between light and dark themes.
 - **Responsive Design**: The website is fully responsive and works on all devices.
 - **Interactive Elements**: Animations and interactive components enhance user experience.
-
-## Usage <a name="usage"></a>
-### Dark Mode
-You can toggle between light and dark mode by clicking the button at the bottom right corner of the screen. The website will remember your preference and apply it the next time you visit.
 
 ### Components
 - **Header**: The navigation bar with links to different sections of the website.
