@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/Singer-Portfolio/static/css/main.9e4442b1.css",
-    "main.js": "/Singer-Portfolio/static/js/main.1c3e5101.js",
+    "main.css": "/Singer-Portfolio/static/css/main.4600a00c.css",
+    "main.js": "/Singer-Portfolio/static/js/main.a111256a.js",
     "static/js/27.a825cf5b.chunk.js": "/Singer-Portfolio/static/js/27.a825cf5b.chunk.js",
-    "static/media/video2.mp4": "/Singer-Portfolio/static/media/video2.468dff8d9a3fc70ae9a4.mp4",
-    "static/media/video3.mp4": "/Singer-Portfolio/static/media/video3.992cbb93f1843f6ff802.mp4",
-    "static/media/video1.mp4": "/Singer-Portfolio/static/media/video1.d32c8a2adcbd2db8e490.mp4",
-    "static/media/my-story.jpeg": "/Singer-Portfolio/static/media/my-story.960e14bfd1bd9559c6e5.jpeg",
-    "static/media/profile.jpeg": "/Singer-Portfolio/static/media/profile.ed91ee779e438e9e985f.jpeg",
+    "static/media/video1.mp4": "/Singer-Portfolio/static/media/video1.dc9f73ac1737677d1e5a.mp4",
+    "static/media/video3.mp4": "/Singer-Portfolio/static/media/video3.0a70ae0f58ac565afc70.mp4",
+    "static/media/video2.mp4": "/Singer-Portfolio/static/media/video2.f24d1f42e1dd98183ca5.mp4",
+    "static/media/gan-saker-show.jpg": "/Singer-Portfolio/static/media/gan-saker-show.caf837a9b3561a7d6cff.jpg",
+    "static/media/my-story-success.jpg": "/Singer-Portfolio/static/media/my-story-success.fec53a0352aead850958.jpg",
+    "static/media/my-story-first-show.jpg": "/Singer-Portfolio/static/media/my-story-first-show.aa40c2fb62a2c0f3deda.jpg",
+    "static/media/my-story-start.jpg": "/Singer-Portfolio/static/media/my-story-start.8496c3d76614167498e0.jpg",
+    "static/media/haifa-show.jpg": "/Singer-Portfolio/static/media/haifa-show.2a59574436f39a7f3229.jpg",
+    "static/media/my-story-career.jpg": "/Singer-Portfolio/static/media/my-story-career.0e47a151e0b67d0c4095.jpg",
+    "static/media/tel-aviv-show.jpg": "/Singer-Portfolio/static/media/tel-aviv-show.10e97494246256347625.jpg",
+    "static/media/my-story.jpg": "/Singer-Portfolio/static/media/my-story.24b7bf8b175bf0ed4a93.jpg",
     "static/media/404.gif": "/Singer-Portfolio/static/media/404.434d4376b8e023482d5a.gif",
+    "static/media/profile.jpg": "/Singer-Portfolio/static/media/profile.74bdace8355b91696a73.jpg",
     "index.html": "/Singer-Portfolio/index.html",
     "static/media/music-cd.svg": "/Singer-Portfolio/static/media/music-cd.5ab3d88a008f28fe5c7ed3a9072e0609.svg"
   },
   "entrypoints": [
-    "static/css/main.9e4442b1.css",
-    "static/js/main.1c3e5101.js"
+    "static/css/main.4600a00c.css",
+    "static/js/main.a111256a.js"
   ]
 }
